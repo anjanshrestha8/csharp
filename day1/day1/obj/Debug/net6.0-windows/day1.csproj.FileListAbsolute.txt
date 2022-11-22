@@ -1,0 +1,17 @@
+D:\anjan\csharp\day1\day1\bin\Debug\net6.0-windows\day1.exe
+D:\anjan\csharp\day1\day1\bin\Debug\net6.0-windows\day1.deps.json
+D:\anjan\csharp\day1\day1\bin\Debug\net6.0-windows\day1.runtimeconfig.json
+D:\anjan\csharp\day1\day1\bin\Debug\net6.0-windows\day1.dll
+D:\anjan\csharp\day1\day1\bin\Debug\net6.0-windows\ref\day1.dll
+D:\anjan\csharp\day1\day1\bin\Debug\net6.0-windows\day1.pdb
+D:\anjan\csharp\day1\day1\obj\Debug\net6.0-windows\day1.csproj.AssemblyReference.cache
+D:\anjan\csharp\day1\day1\obj\Debug\net6.0-windows\day1.Form1.resources
+D:\anjan\csharp\day1\day1\obj\Debug\net6.0-windows\day1.csproj.GenerateResource.cache
+D:\anjan\csharp\day1\day1\obj\Debug\net6.0-windows\day1.GeneratedMSBuildEditorConfig.editorconfig
+D:\anjan\csharp\day1\day1\obj\Debug\net6.0-windows\day1.AssemblyInfoInputs.cache
+D:\anjan\csharp\day1\day1\obj\Debug\net6.0-windows\day1.AssemblyInfo.cs
+D:\anjan\csharp\day1\day1\obj\Debug\net6.0-windows\day1.csproj.CoreCompileInputs.cache
+D:\anjan\csharp\day1\day1\obj\Debug\net6.0-windows\day1.dll
+D:\anjan\csharp\day1\day1\obj\Debug\net6.0-windows\ref\day1.dll
+D:\anjan\csharp\day1\day1\obj\Debug\net6.0-windows\day1.pdb
+D:\anjan\csharp\day1\day1\obj\Debug\net6.0-windows\day1.genruntimeconfig.cache
