@@ -1,0 +1,17 @@
+D:\anjan\csharp\day2\day2\bin\Debug\net6.0-windows\day2.exe
+D:\anjan\csharp\day2\day2\bin\Debug\net6.0-windows\day2.deps.json
+D:\anjan\csharp\day2\day2\bin\Debug\net6.0-windows\day2.runtimeconfig.json
+D:\anjan\csharp\day2\day2\bin\Debug\net6.0-windows\day2.dll
+D:\anjan\csharp\day2\day2\bin\Debug\net6.0-windows\ref\day2.dll
+D:\anjan\csharp\day2\day2\bin\Debug\net6.0-windows\day2.pdb
+D:\anjan\csharp\day2\day2\obj\Debug\net6.0-windows\day2.csproj.AssemblyReference.cache
+D:\anjan\csharp\day2\day2\obj\Debug\net6.0-windows\day2.Form1.resources
+D:\anjan\csharp\day2\day2\obj\Debug\net6.0-windows\day2.csproj.GenerateResource.cache
+D:\anjan\csharp\day2\day2\obj\Debug\net6.0-windows\day2.GeneratedMSBuildEditorConfig.editorconfig
+D:\anjan\csharp\day2\day2\obj\Debug\net6.0-windows\day2.AssemblyInfoInputs.cache
+D:\anjan\csharp\day2\day2\obj\Debug\net6.0-windows\day2.AssemblyInfo.cs
+D:\anjan\csharp\day2\day2\obj\Debug\net6.0-windows\day2.csproj.CoreCompileInputs.cache
+D:\anjan\csharp\day2\day2\obj\Debug\net6.0-windows\day2.dll
+D:\anjan\csharp\day2\day2\obj\Debug\net6.0-windows\ref\day2.dll
+D:\anjan\csharp\day2\day2\obj\Debug\net6.0-windows\day2.pdb
+D:\anjan\csharp\day2\day2\obj\Debug\net6.0-windows\day2.genruntimeconfig.cache

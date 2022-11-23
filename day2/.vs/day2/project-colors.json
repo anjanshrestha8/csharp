@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "00e2f4ef-9822-4bd4-a842-c872a264ff45": {
+      "ProjectGuid": "00e2f4ef-9822-4bd4-a842-c872a264ff45",
+      "DisplayName": "day2",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
