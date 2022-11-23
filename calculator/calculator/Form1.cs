@@ -35,6 +35,7 @@ namespace calculator
         private void button7_Click(object sender, EventArgs e)
         {
             display.Text = display.Text + 7;
+            //display.Test="1";
         }
 
         private void button9_Click(object sender, EventArgs e)
@@ -59,6 +60,7 @@ namespace calculator
 
         private void button13_Click(object sender, EventArgs e)
         {
+           
             display.Text = display.Text + 0;
         }
 
