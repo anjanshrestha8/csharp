@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "c47/P3Z2WW7aPXFSrSaiRvhWrJFmGmZWSdMLai57+HePGnz6YfYrZKdsFOrYrNryd69UfLjGyxwzGcfbnNrHEw==",
+  "dgSpecHash": "3onq8aOZoQZ6ELbQ8iqlh47wK1DIJF/aW8r4yqc0YViduOnHsfrK4HnkS127HLI6QdyWCssAqmPfPLrHWwVyow==",
   "success": true,
-  "projectFilePath": "D:\\anjan\\csharp\\calculator\\calculator\\calculator.csproj",
+  "projectFilePath": "D:\\anjan\\vsgit\\calculator\\calculator\\calculator.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
