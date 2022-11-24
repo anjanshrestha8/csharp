@@ -2,6 +2,8 @@ namespace calculator
 {
     public partial class Form1 : Form
     {
+        string operate="";
+        decimal result = 0;
         public Form1()
         {
             InitializeComponent();
@@ -45,7 +47,7 @@ namespace calculator
 
         private void button8_Click(object sender, EventArgs e)
         {
-            display.Text = display.Text + "=";
+           
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -66,7 +68,7 @@ namespace calculator
 
         private void button14_Click(object sender, EventArgs e)
         {
-            display.Text = display.Text + ".";
+           display.Text=display.Text + ".";
         }
 
         private void button5_Click_1(object sender, EventArgs e)
@@ -76,17 +78,19 @@ namespace calculator
 
         private void button16_Click(object sender, EventArgs e)
         {
-            display.Text = display.Text + "*";
+            operate = "*";
         }
 
         private void button11_Click_1(object sender, EventArgs e)
         {
-            display.Text = display.Text + "/";
+            operate = "/";
         }
 
         private void button12_Click(object sender, EventArgs e)
         {
-            display.Text = display.Text + "-";
+            GetValue();
+            operate= "-";
+            display.Text = "-";
         }
 
         private void button6_Click_1(object sender, EventArgs e)
@@ -101,7 +105,9 @@ namespace calculator
 
         private void button10_Click(object sender, EventArgs e)
         {
-            display.Text = display.Text + "+";
+            GetValue();
+            operate= "+";
+            display.Text = "+";
         }
 
         private void button4_Click_1(object sender, EventArgs e)
@@ -111,7 +117,19 @@ namespace calculator
 
         private void button17_Click(object sender, EventArgs e)
         {
-            display.Clear();        }
+            display.Clear();       
+        }
+        public void GetValue()
+        {
+            if(display.Text !="" && display.Text !="+" && display.Text !="-" display.Text !="/" && display.Text != "*" ){
+                result = Convert.ToDecimal(display.Text);
+            }
+        }
+
+        private void button8_Click_1(object sender, EventArgs e)
+        {
+            display.Text = display.Text + 3;
+        }
     }
     
 }

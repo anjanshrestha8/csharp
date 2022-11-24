@@ -71,9 +71,9 @@
             this.panel1.Controls.Add(this.button2);
             this.panel1.Controls.Add(this.button1);
             this.panel1.Controls.Add(this.display);
-            this.panel1.Location = new System.Drawing.Point(217, 51);
+            this.panel1.Location = new System.Drawing.Point(-1, -4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(385, 373);
+            this.panel1.Size = new System.Drawing.Size(389, 366);
             this.panel1.TabIndex = 0;
             // 
             // button17
@@ -163,7 +163,7 @@
             this.button8.TabIndex = 2;
             this.button8.Text = "3";
             this.button8.UseVisualStyleBackColor = false;
-            this.button8.Click += new System.EventHandler(this.button8_Click);
+            this.button8.Click += new System.EventHandler(this.button8_Click_1);
             // 
             // button6
             // 
@@ -309,7 +309,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(783, 506);
+            this.ClientSize = new System.Drawing.Size(387, 358);
             this.Controls.Add(this.panel1);
             this.Name = "Form1";
             this.Text = "Form1";
