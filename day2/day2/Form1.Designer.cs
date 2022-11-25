@@ -53,6 +53,7 @@
             this.userid.Name = "userid";
             this.userid.Size = new System.Drawing.Size(329, 23);
             this.userid.TabIndex = 1;
+            this.userid.Text = "anjan";
             this.userid.TextChanged += new System.EventHandler(this.userid_TextChanged);
             // 
             // label2
@@ -71,6 +72,8 @@
             this.password.Name = "password";
             this.password.Size = new System.Drawing.Size(329, 23);
             this.password.TabIndex = 3;
+            this.password.TextChanged += new System.EventHandler(this.password_TextChanged);
+            this.password.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.password_KeyPress);
             // 
             // submit
             // 
@@ -108,6 +111,8 @@
             this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.TextChanged += new System.EventHandler(this.Form1_TextChanged);
+            this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Form1_KeyPress);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -122,5 +127,6 @@
         private TextBox password;
         private Button submit;
         private PictureBox pictureBox1;
+        private Button button1;
     }
 }

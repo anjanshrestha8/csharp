@@ -14,12 +14,18 @@ namespace day2
             if (data == "123")
             {
                 MessageBox.Show("you are logged in");
+                this.Hide();
+                employeeform object_name = new employeeform();
+                object_name.ShowDialog();
 
             }
             else
             {
                 MessageBox.Show("Password error");
+              
             }
+
+           
         }
 
         private void userid_TextChanged(object sender, EventArgs e)
@@ -28,6 +34,33 @@ namespace day2
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+        }
+
+        private void Form1_TextChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void Form1_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            
+        }
+
+        private void password_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == 13)
+            {
+                submit.PerformClick();
+            }
+        }
+
+        private void password_TextChanged(object sender, EventArgs e)
         {
 
         }
