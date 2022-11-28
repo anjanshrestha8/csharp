@@ -1,9 +1,13 @@
+using System.Data.SqlClient;
+
 namespace calculator
 {
     public partial class Form1 : Form
     {
         string operate = "";
         decimal result = 0;
+        SqlConnection con = new SqlConnection("Data Source =  .\\SQLEXPRESS; Inital Catlog=");
+        
         public Form1()
         {
             InitializeComponent();
