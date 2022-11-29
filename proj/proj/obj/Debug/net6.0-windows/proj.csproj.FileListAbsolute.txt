@@ -21,3 +21,4 @@ D:\anjan\vsgit\proj\proj\obj\Debug\net6.0-windows\proj.dll
 D:\anjan\vsgit\proj\proj\obj\Debug\net6.0-windows\ref\proj.dll
 D:\anjan\vsgit\proj\proj\obj\Debug\net6.0-windows\proj.pdb
 D:\anjan\vsgit\proj\proj\obj\Debug\net6.0-windows\proj.genruntimeconfig.cache
+D:\anjan\vsgit\proj\proj\obj\Debug\net6.0-windows\proj.csproj.AssemblyReference.cache
