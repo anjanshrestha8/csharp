@@ -36,16 +36,16 @@
             this.mname = new System.Windows.Forms.TextBox();
             this.lname = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
-            this.radioButton3 = new System.Windows.Forms.RadioButton();
+            this.male = new System.Windows.Forms.RadioButton();
+            this.female = new System.Windows.Forms.RadioButton();
+            this.others = new System.Windows.Forms.RadioButton();
             this.label6 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.cno = new System.Windows.Forms.TextBox();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.button1 = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
+            this.dob = new System.Windows.Forms.DateTimePicker();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -130,14 +130,6 @@
             this.label2.Text = "DOB";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(226, 194);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 23);
-            this.textBox1.TabIndex = 2;
-            this.textBox1.Text = "YYYY/MM/DD";
-            // 
             // label5
             // 
             this.label5.AutoSize = true;
@@ -151,40 +143,40 @@
             this.label5.Text = "Gender";
             this.label5.Click += new System.EventHandler(this.label2_Click);
             // 
-            // radioButton1
+            // male
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(374, 194);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(51, 19);
-            this.radioButton1.TabIndex = 3;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Male";
-            this.radioButton1.UseVisualStyleBackColor = true;
+            this.male.AutoSize = true;
+            this.male.Location = new System.Drawing.Point(374, 194);
+            this.male.Name = "male";
+            this.male.Size = new System.Drawing.Size(51, 19);
+            this.male.TabIndex = 3;
+            this.male.TabStop = true;
+            this.male.Text = "Male";
+            this.male.UseVisualStyleBackColor = true;
             // 
-            // radioButton2
+            // female
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(431, 195);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(63, 19);
-            this.radioButton2.TabIndex = 3;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "Female";
-            this.radioButton2.UseVisualStyleBackColor = true;
-            this.radioButton2.CheckedChanged += new System.EventHandler(this.radioButton2_CheckedChanged);
+            this.female.AutoSize = true;
+            this.female.Location = new System.Drawing.Point(431, 195);
+            this.female.Name = "female";
+            this.female.Size = new System.Drawing.Size(63, 19);
+            this.female.TabIndex = 3;
+            this.female.TabStop = true;
+            this.female.Text = "Female";
+            this.female.UseVisualStyleBackColor = true;
+            this.female.CheckedChanged += new System.EventHandler(this.radioButton2_CheckedChanged);
             // 
-            // radioButton3
+            // others
             // 
-            this.radioButton3.AutoSize = true;
-            this.radioButton3.Location = new System.Drawing.Point(500, 194);
-            this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(60, 19);
-            this.radioButton3.TabIndex = 3;
-            this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "Others";
-            this.radioButton3.UseVisualStyleBackColor = true;
-            this.radioButton3.CheckedChanged += new System.EventHandler(this.radioButton3_CheckedChanged);
+            this.others.AutoSize = true;
+            this.others.Location = new System.Drawing.Point(500, 194);
+            this.others.Name = "others";
+            this.others.Size = new System.Drawing.Size(60, 19);
+            this.others.TabIndex = 3;
+            this.others.TabStop = true;
+            this.others.Text = "Others";
+            this.others.UseVisualStyleBackColor = true;
+            this.others.CheckedChanged += new System.EventHandler(this.radioButton3_CheckedChanged);
             // 
             // label6
             // 
@@ -199,16 +191,17 @@
             this.label6.Text = "Contact No";
             this.label6.Click += new System.EventHandler(this.label2_Click);
             // 
-            // textBox2
+            // cno
             // 
-            this.textBox2.Location = new System.Drawing.Point(597, 191);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(128, 23);
-            this.textBox2.TabIndex = 2;
+            this.cno.Location = new System.Drawing.Point(597, 191);
+            this.cno.Name = "cno";
+            this.cno.Size = new System.Drawing.Size(128, 23);
+            this.cno.TabIndex = 2;
             // 
             // dateTimePicker1
             // 
             this.dateTimePicker1.CalendarMonthBackground = System.Drawing.Color.Red;
+            this.dateTimePicker1.CustomFormat = "";
             this.dateTimePicker1.Location = new System.Drawing.Point(578, 12);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(191, 23);
@@ -237,6 +230,16 @@
             this.label7.Text = "1/3";
             this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
+            // dob
+            // 
+            this.dob.CalendarMonthBackground = System.Drawing.Color.Red;
+            this.dob.CustomFormat = "";
+            this.dob.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dob.Location = new System.Drawing.Point(226, 195);
+            this.dob.Name = "dob";
+            this.dob.Size = new System.Drawing.Size(100, 23);
+            this.dob.TabIndex = 4;
+            // 
             // employeeform
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -244,14 +247,14 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.button1);
+            this.Controls.Add(this.dob);
             this.Controls.Add(this.dateTimePicker1);
-            this.Controls.Add(this.radioButton3);
-            this.Controls.Add(this.radioButton2);
-            this.Controls.Add(this.radioButton1);
+            this.Controls.Add(this.others);
+            this.Controls.Add(this.female);
+            this.Controls.Add(this.male);
             this.Controls.Add(this.lname);
             this.Controls.Add(this.mname);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.cno);
             this.Controls.Add(this.fname);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label4);
@@ -278,15 +281,15 @@
         private TextBox mname;
         private TextBox lname;
         private Label label2;
-        private TextBox textBox1;
         private Label label5;
-        private RadioButton radioButton1;
-        private RadioButton radioButton2;
-        private RadioButton radioButton3;
+        private RadioButton male;
+        private RadioButton female;
+        private RadioButton others;
         private Label label6;
-        private TextBox textBox2;
+        private TextBox cno;
         private DateTimePicker dateTimePicker1;
         private Button button1;
         private Label label7;
+        private DateTimePicker dob;
     }
 }

@@ -21,5 +21,15 @@ namespace day2
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            //String data = fname.Text;
+        }
+
+        private void additional_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

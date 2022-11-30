@@ -35,3 +35,10 @@ D:\anjan\vsgit\day2\day2\obj\Debug\net6.0-windows\ref\day2.dll
 D:\anjan\vsgit\day2\day2\obj\Debug\net6.0-windows\day2.pdb
 D:\anjan\vsgit\day2\day2\obj\Debug\net6.0-windows\day2.genruntimeconfig.cache
 D:\anjan\vsgit\day2\day2\obj\Debug\net6.0-windows\day2.additional.resources
+D:\anjan\vsgit\day2\day2\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+D:\anjan\vsgit\day2\day2\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+D:\anjan\vsgit\day2\day2\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+D:\anjan\vsgit\day2\day2\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+D:\anjan\vsgit\day2\day2\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\anjan\vsgit\day2\day2\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\anjan\vsgit\day2\day2\obj\Debug\net6.0-windows\day2.csproj.CopyComplete

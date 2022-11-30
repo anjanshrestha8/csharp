@@ -95,5 +95,17 @@ namespace proj
             }
           
         }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            string data = id.Text;
+            string data1 = name.Text;
+            Display.Rows.Add(data, data1);
+        }
     }
 }

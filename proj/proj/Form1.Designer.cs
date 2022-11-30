@@ -36,6 +36,11 @@
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.button4 = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.id = new System.Windows.Forms.TextBox();
+            this.name = new System.Windows.Forms.TextBox();
+            this.button5 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.Display)).BeginInit();
             this.SuspendLayout();
             // 
@@ -84,10 +89,10 @@
             this.Display.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column1,
             this.Column2});
-            this.Display.Location = new System.Drawing.Point(338, 49);
+            this.Display.Location = new System.Drawing.Point(360, 222);
             this.Display.Name = "Display";
             this.Display.RowTemplate.Height = 25;
-            this.Display.Size = new System.Drawing.Size(415, 361);
+            this.Display.Size = new System.Drawing.Size(260, 119);
             this.Display.TabIndex = 4;
             this.Display.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
@@ -111,11 +116,59 @@
             this.button4.UseVisualStyleBackColor = true;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(361, 109);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(129, 15);
+            this.label2.TabIndex = 6;
+            this.label2.Text = "Please enter you name.";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(360, 28);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(114, 15);
+            this.label3.TabIndex = 6;
+            this.label3.Text = "Please enter your ID.";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
+            // 
+            // id
+            // 
+            this.id.Location = new System.Drawing.Point(361, 60);
+            this.id.Name = "id";
+            this.id.Size = new System.Drawing.Size(148, 23);
+            this.id.TabIndex = 7;
+            // 
+            // name
+            // 
+            this.name.Location = new System.Drawing.Point(361, 137);
+            this.name.Name = "name";
+            this.name.Size = new System.Drawing.Size(148, 23);
+            this.name.TabIndex = 7;
+            // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(415, 193);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(75, 23);
+            this.button5.TabIndex = 8;
+            this.button5.Text = "Enter";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button5);
+            this.Controls.Add(this.name);
+            this.Controls.Add(this.id);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.Display);
             this.Controls.Add(this.button3);
@@ -140,5 +193,10 @@
         private Button button4;
         private DataGridViewTextBoxColumn Column1;
         private DataGridViewTextBoxColumn Column2;
+        private Label label2;
+        private Label label3;
+        private TextBox id;
+        private TextBox name;
+        private Button button5;
     }
 }
