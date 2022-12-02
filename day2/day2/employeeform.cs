@@ -65,5 +65,9 @@ namespace day2
 
         }
 
+        private void dob_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

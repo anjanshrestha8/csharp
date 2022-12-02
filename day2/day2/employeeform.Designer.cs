@@ -239,12 +239,13 @@
             this.dob.Name = "dob";
             this.dob.Size = new System.Drawing.Size(100, 23);
             this.dob.TabIndex = 4;
+            this.dob.ValueChanged += new System.EventHandler(this.dob_ValueChanged);
             // 
             // employeeform
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(833, 375);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.dob);
