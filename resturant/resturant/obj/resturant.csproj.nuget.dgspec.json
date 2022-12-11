@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\anjan\\vsgit\\day1\\day1\\day1.csproj": {}
+    "D:\\anjan\\vsgit\\resturant\\resturant\\resturant.csproj": {}
   },
   "projects": {
-    "D:\\anjan\\vsgit\\day1\\day1\\day1.csproj": {
+    "D:\\anjan\\vsgit\\resturant\\resturant\\resturant.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\anjan\\vsgit\\day1\\day1\\day1.csproj",
-        "projectName": "day1",
-        "projectPath": "D:\\anjan\\vsgit\\day1\\day1\\day1.csproj",
+        "projectUniqueName": "D:\\anjan\\vsgit\\resturant\\resturant\\resturant.csproj",
+        "projectName": "resturant",
+        "projectPath": "D:\\anjan\\vsgit\\resturant\\resturant\\resturant.csproj",
         "packagesPath": "C:\\Users\\student3\\.nuget\\packages\\",
-        "outputPath": "D:\\anjan\\vsgit\\day1\\day1\\obj\\",
+        "outputPath": "D:\\anjan\\vsgit\\resturant\\resturant\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
